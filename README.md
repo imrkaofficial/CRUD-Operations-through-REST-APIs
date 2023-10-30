@@ -55,7 +55,7 @@ The entry point of the application initializes the database connection, sets up 
 
 1. Update the MySQL DSN in `main.go` with your database connection details.
    or
-   To create new database [connection with docker](dokcer/README.md)
+   To create new database [connection with docker](docker/README.md)
 
 2. Install the necessary Go dependencies.
 
