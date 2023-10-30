@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    volumes:
+      - dbdata:/var/lib/mysql
+    container_name: mysql-container
+    environment:
+      DB_TYPE: 'mysql'
+      MYSQL_ROOT_PASSWORD: demo1234
+      MYSQL_USER: demo  
+      MYSQL_PASSWORD: demo1234
+      MYSQL_DATABASE: newdb
+      MYSQL_ROOT_HOST: 0.0.0.0
+    ports:
+      - "3306:3306"
+    
+  pma:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - mysql
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: always
+    ports:
+      - 8081:80
+
+volumes:
+  dbdata:
