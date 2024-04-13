@@ -1,4 +1,4 @@
-# MySQL API with Go (Golang)
+# CRUD Operations through REST APIs
 
 It contains a simple Go (Golang) application that serves as an API for managing accounts in a MySQL database. The application uses the Gin framework for routing and GORM for database interactions. Below are optimizations and explanations for the code components:
 
