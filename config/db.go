@@ -3,7 +3,7 @@ package config
 import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"mysql-api/models"
+	"github.com/imrkaofficial/CRUD-Operations-through-REST-APIs/models"
 	"log"
 )
 

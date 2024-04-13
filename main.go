@@ -1,8 +1,8 @@
 package main
 
 import (
-	"mysql-api/config"
-	"mysql-api/routes"
+	"github.com/imrkaofficial/CRUD-Operations-through-REST-APIs/config"
+	"github.com/imrkaofficial/CRUD-Operations-through-REST-APIs/routes"
 
 	"github.com/gin-gonic/gin"
 )

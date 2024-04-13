@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"mysql-api/controller"
+	"github.com/imrkaofficial/CRUD-Operations-through-REST-APIs/controller"
 
 	"github.com/gin-gonic/gin"
 )

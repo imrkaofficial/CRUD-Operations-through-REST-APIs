@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"mysql-api/config"
-	"mysql-api/models"
+	"github.com/imrkaofficial/CRUD-Operations-through-REST-APIs/config"
+	"github.com/imrkaofficial/CRUD-Operations-through-REST-APIs/models"
 
 	"github.com/gin-gonic/gin"
 )
